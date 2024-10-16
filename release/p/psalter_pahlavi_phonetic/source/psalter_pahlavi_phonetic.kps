@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package>
   <System>
-    <KeymanDeveloperVersion>17.0.328.0</KeymanDeveloperVersion>
+    <KeymanDeveloperVersion>17.0.330.0</KeymanDeveloperVersion>
     <FileVersion>7.0</FileVersion>
   </System>
   <Options>
     <ExecuteProgram></ExecuteProgram>
     <ReadMeFile>readme.htm</ReadMeFile>
     <LicenseFile>..\LICENSE.md</LicenseFile>
-    <WelcomeFile>welcome.htm</WelcomeFile>
+    <WelcomeFile>welcome\welcome.htm</WelcomeFile>
     <MSIFileName></MSIFileName>
     <MSIOptions></MSIOptions>
     <FollowKeyboardVersion/>
@@ -18,37 +18,30 @@
     <Items/>
   </StartMenu>
   <Info>
-    <Name URL="">hakka</Name>
-    <Copyright URL="">Copyright © cathaylab</Copyright>
-    <Author URL="mailto:goetiansoc@proton.me">cathaylab</Author>
-    <Description URL="">hakka keyboard for Hak-kâ-ngî Pha̍k-và-sṳ̀ and 客家語漢字</Description>
+    <Name URL="">Psalter Pahlavi (Phonetic)</Name>
+    <Copyright URL="">Copyright © SIL Global</Copyright>
+    <Author URL="">Lorna Evans</Author>
+    <Description URL="">This is a keyboard for the Pahlavi language of China using the Psalter Pahlavi script. It is based on a US Qwerty phonetic layout.</Description>
     <Version URL=""></Version>
-    <WebSite URL="https://github.com/Cathaylaboratory">https://github.com/Cathaylaboratory</WebSite>
   </Info>
   <Files>
     <File>
-      <Name>..\build\hakka.kmx</Name>
+      <Name>..\build\psalter_pahlavi_phonetic.kmx</Name>
       <Description></Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.kmx</FileType>
     </File>
     <File>
-      <Name>..\build\hakka.js</Name>
+      <Name>..\build\psalter_pahlavi_phonetic.js</Name>
       <Description></Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.js</FileType>
     </File>
     <File>
-      <Name>..\build\hakka.kvk</Name>
+      <Name>..\build\psalter_pahlavi_phonetic.kvk</Name>
       <Description></Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.kvk</FileType>
-    </File>
-    <File>
-      <Name>welcome.htm</Name>
-      <Description></Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.htm</FileType>
     </File>
     <File>
       <Name>readme.htm</Name>
@@ -63,49 +56,51 @@
       <FileType>.md</FileType>
     </File>
     <File>
-      <Name>taigitelexU_.png</Name>
-      <Description>File taigitelexU_.png</Description>
+      <Name>welcome\LayoutU_.png</Name>
+      <Description>File LayoutU_.png</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.png</FileType>
     </File>
     <File>
-      <Name>taigitelexU_S.png</Name>
-      <Description>File taigitelexU_S.png</Description>
+      <Name>welcome\LayoutU_S.png</Name>
+      <Description>File LayoutU_S.png</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.png</FileType>
     </File>
     <File>
-      <Name>consonants.png</Name>
-      <Description>File consonants.png</Description>
+      <Name>welcome\welcome.htm</Name>
+      <Description>File welcome.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>welcome\LayoutU_RA.png</Name>
+      <Description>File LayoutU_RA.png</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.png</FileType>
     </File>
     <File>
-      <Name>h.png</Name>
-      <Description>File h.png</Description>
+      <Name>..\..\..\shared\fonts\noto\Phlp\NotoSansPsalterPahlavi-Regular.ttf</Name>
+      <Description>Font Noto Sans Psalter Pahlavi Regular</Description>
       <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
+      <FileType>.ttf</FileType>
     </File>
     <File>
-      <Name>tones.png</Name>
-      <Description>File tones.png</Description>
+      <Name>..\..\..\shared\fonts\noto\Phlp\OFL.txt</Name>
+      <Description>File OFL.txt</Description>
       <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
-    </File>
-    <File>
-      <Name>vowels.png</Name>
-      <Description>File vowels.png</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.png</FileType>
+      <FileType>.txt</FileType>
     </File>
   </Files>
   <Keyboards>
     <Keyboard>
-      <Name>hakka</Name>
-      <ID>hakka</ID>
-      <Version>1.2</Version>
+      <Name>Psalter Pahlavi (Phonetic)</Name>
+      <ID>psalter_pahlavi_phonetic</ID>
+      <Version>1.0</Version>
+      <OSKFont>..\..\..\shared\fonts\noto\Phlp\NotoSansPsalterPahlavi-Regular.ttf</OSKFont>
+      <DisplayFont>..\..\..\shared\fonts\noto\Phlp\NotoSansPsalterPahlavi-Regular.ttf</DisplayFont>
       <Languages>
-        <Language ID="hak-Latn-030">Hak-kâ-ngî Pha̍k-và-sṳ̀</Language>
+        <Language ID="pal-Phlp">Pahlavi (Psalter Pahlavi)</Language>
       </Languages>
     </Keyboard>
   </Keyboards>

@@ -1,13 +1,13 @@
-hakka keyboard
+Psalter Pahlavi (Phonetic) keyboard
 ==============
 
 Description
 -----------
-hakka keyboard for Hak-kâ-ngî Pha̍k-và-sṳ̀ and 客家語漢字
+This is a keyboard for the Pahlavi language of China using the Psalter Pahlavi script. It is based on a US Qwerty phonetic layout.
 
 Links
 -----
-Keyboard Homepage: https://keyman.com/keyboards/hakka
+Keyboard Homepage: https://keyman.com/keyboards/psalter_pahlavi_phonetic
 
 Copyright
 ---------
